@@ -1,0 +1,3 @@
+/home/ps/桌面/Test/tvmTest/build/CMakeFiles/rebuild_cache.dir
+/home/ps/桌面/Test/tvmTest/build/CMakeFiles/edit_cache.dir
+/home/ps/桌面/Test/tvmTest/build/CMakeFiles/demo.dir
