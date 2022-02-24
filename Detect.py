@@ -221,6 +221,7 @@ module.run()
 pred = module.get_output(0).asnumpy()
 
 print(pred.shape)
+# print(pred[0][0])
 
 pred = non_max_suppression(pred, 0.45, 0.3, None, False, max_det=1000)
 for i, det in enumerate(pred):  # per image
