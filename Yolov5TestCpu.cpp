@@ -211,6 +211,8 @@ int main(){
 
     int dtype_code = kDLFloat;
     int dtype_bits = 32;
+    // int dtype_code = kDLBfloat;
+    // int dtype_bits = 32;
     int dtype_lanes = 1;
     int device_type = kDLCPU;
     // int device_type = kDLCUDA;
@@ -222,6 +224,7 @@ int main(){
     DLTensor *x;
     int in_ndim = 4;
     int64_t in_shape[4] = {1, 3, 640, 640};
+    // int64_t in_shape[4] = {1, 640, 640, 3};
     
     TVMArrayAlloc(in_shape, in_ndim, dtype_code, dtype_bits, dtype_lanes, device_type, device_id, &x);
     
