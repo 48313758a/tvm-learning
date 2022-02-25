@@ -26,8 +26,10 @@ CPU costs 1.6s.
 
 C++部署:onnx->params+json :
 
-​       yolo5n cpu+float32 0.3s 并且cuda+float32 0.4ms ， 
+​       yolo5n cpu+float32 0.3s  &&  cuda+float32 0.4ms ， 
 
-​       yolo5s ： cpu+float32 1.5s并且cuda+float32 1ms
+​       yolo5s ： cpu+float32 1.5s &&  cuda+float32 1ms
 
 由于是float32cpu推理较慢，可用tflite int8格式加速，暂时无数据集进行量化训练。
+
+PS：Tflite‘s inputshape and name is diffrerent.
