@@ -1,18 +1,18 @@
 ---
-typora-root-url: ./
+
 ---
 
 # tvm-learning
 
 
 
-![res](/../tvmTest/res.jpg)
+![res](https://raw.githubusercontent.com/48313758a/tvm-learning/main/res.jpg)
 
 This PythonAPI infer result
 
 
 
-![C_Res](/../tvmTest/C_Res.jpg)
+![C_Res](https://raw.githubusercontent.com/48313758a/tvm-learning/main/C_Res.jpg)
 
 This is C++API infer result. 
 
